@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "iNked God";
+    src: url("fonts/inked_god/iNked God.ttf.woff2") format("woff2"),
+        url("fonts/inked_god/iNked God.woff") format("woff"),
+        url("fonts/inked_god/iNked God.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 2. Define Painful Typewriter */
+@font-face {
+    font-family: "Painful Typewriter";
+    src: url("fonts/inked_god/Painful Typewriter.otf.woff2") format("woff2"),
+        url("fonts/inked_god/Painful Typewriter.otf.woff") format("woff"),
+        url("fonts/inked_god/Painful Typewriter.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 3. Define Punk Typewriter */
+@font-face {
+    font-family: "Punk Typewriter";
+    src: url("fonts/inked_god/Punk Typewriter.otf.woff2") format("woff2"),
+        url("fonts/inked_god/Punk Typewriter.otf.woff") format("woff"),
+        url("fonts/inked_god/Punk Typewriter.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+   
+    background-image: url("https://i.pinimg.com/originals/57/2b/64/572b644fd685826e7670e2981cf32499.gif") ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-home {
+
+    position: relative; /* Acts as the anchor for the floating item */
+  display: inline-block;
+  
+}
+.homepg{
+
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 100vh;
+    filter: grayscale(50%);
+
+}
+.title{
+    font-family: "Punk Typewriter", serif;
+    /* Added serif as a fallback */
+    color: rgba(53, 25, 7, 0.797);
+    text-align: center;
+    letter-spacing: 1px;
+   position: relative;
+   padding: 20px;
+   position: absolute; /* Takes the item out of normal flow */
+  top: 0px;          /* Distance from the top of the image */
+  left: 40px;        /* Distance from the right of the image */
+  z-index: 10;  
+    font-size: 30px;
+    
+    
+    
+}
+.profile-box {
+    background-color: rgba(60, 54, 46, 0.8);
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+   position: absolute; /* Takes the item out of normal flow */
+  top: -120px;          /* Distance from the top of the image */
+  right: -130px;        /* Distance from the right of the image */
+  z-index: 10;        /* Ensures it stays on top of the image */
+  background: rgba(60, 16, 16, 0.8); /* Optional: styling for visibility */
+  color: white;
+  padding: 5px 10px;
+    color: white;
+    scale: 0.27;
+}
+

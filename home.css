@@ -35,7 +35,7 @@
 h1 {
     font-family: "Punk Typewriter", serif;
     /* Added serif as a fallback */
-    color: rgba(75, 45, 24, 0.797);
+    color: rgba(213, 132, 74, 0.797);
     text-align: center;
     letter-spacing: 1px;
     text-shadow:
@@ -138,7 +138,7 @@ main{
     if you want to style them separately,
     create styles for #leftSidebar and #rightSidebar */
 aside {
-    background-color: #241445;
+    background-color: #3c362e;
     width: 200px;
     padding: 20px;
     font-size: smaller;
@@ -146,8 +146,9 @@ aside {
 }
 #statuscafe {
     padding: .5em;
-    background-color: azure;
-    border: 1px solid midnightblue;
+    background-color: rgb(43, 39, 18);
+    border: 1px solid rgb(100, 70, 29);
+    color: blue;
 }
 #statuscafe-username {
     margin-bottom: .5em;
