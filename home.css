@@ -86,9 +86,15 @@ body {
 #container a {
     color: #ffffff;
     font-weight: bold;
+    text-decoration: none;
 
 }
 
+main{
+    color: #1c1406b8;
+    font-family: "painful typewriter", serif;
+    font-size: 10px;
+}
 
 /* navigation section!! */
 #navbar {
@@ -138,7 +144,17 @@ aside {
     font-size: smaller;
     /* this makes the sidebar text slightly smaller */
 }
-
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+    border: 1px solid midnightblue;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
 
 /* this is the color of the main content area,
     between the sidebars! */
@@ -242,4 +258,17 @@ strong {
     #navbar ul {
         flex-wrap: wrap;
     }
+}
+
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+    border: 1px solid rgb(3, 51, 61);
+    color:black;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
 }
