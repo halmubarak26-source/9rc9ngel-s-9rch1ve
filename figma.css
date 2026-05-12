@@ -15,14 +15,43 @@ body {
 }
 .left-sidebar{
     order:1;
-    background-color: #A4A8B9 ;
+    background-color: #ffffff ;
         opacity: 0.8; 
-        padding: 20px;
         margin: 5px;
         border-radius: 10px;
         width: 20%;
+        padding: 10px;
+        border: #384171 solid 5px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.left-sidebar a{
+    color: #08001cb8;
+    font-family: "painful typewriter", serif;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border: #384171 solid 2px;
+   
 }
 
+.left-sidebar a:hover{
+    color: #ffffffb8;
+    font-family: "painful typewriter", serif;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: #384171;
+    padding: 10px;
+    border: #384171 solid 2px;
+    transition: all 0.3s ease;
+   
+}
 .main-content{
     order:2;
      background-color: #A4A8B9 ;
