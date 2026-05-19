@@ -69,3 +69,13 @@ ul{
         border-radius: 10px;
         width: 20%;
 }
+
+.welcome{
+    font-family: "painful typewriter", serif;
+    font-size: 20px;
+    color: #08001cb8;
+    text-align: center;
+    background-color: #ffffff ;
+        padding: 10px;
+        border: #384171 solid 5px;
+}
