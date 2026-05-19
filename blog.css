@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: row;
     min-height: 100vh;
+     margin: auto;
 }
 .left-sidebar{
     order:1;
@@ -52,22 +53,15 @@ ul{
     transition: all 0.3s ease;
    
 }
-.main-content{
-    order:2;
-     background-color: #A4A8B9 ;
- padding: 20px;
-        margin: 5px;
-        border-radius: 10px;
-        width: 60%;
 
-}
 .right-sidebar{
     order:3;
    background-color: #69719B;
     padding: 20px;
         margin: 5px;
         border-radius: 10px;
-        width: 20%;
+        width: 80%;
+       
 }
 
 .welcome{
@@ -80,15 +74,29 @@ ul{
         border: #384171 solid 5px;
 }
 
-#statuscafe {
-    padding: .5em;
-    background-color: azure;
-    border: 1px solid midnightblue;
-    border-radius: 2px;
-}
-#statuscafe-username {
-    margin-bottom: .5em;
-}
-#statuscafe-content {
-    margin: 0 1em 0.5em 1em;
-}
+.journal{
+    font-family: "painful typewriter", serif;
+    font-size: 20px;
+    color: #161320b8;
+    text-align: center;
+    background-color: #ffffff ;
+        padding: 10px;
+        border: #384171 solid 5px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .journal-card{
+        background-color: #f0eff9 ;
+        padding: 10px;
+        border: #384171 solid 5px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .journal-card h2{
+        font-family: "painful typewriter", serif;
+        font-size: 18px;
+        color: #0a0127b8;
+        margin-top: 0;
+    }

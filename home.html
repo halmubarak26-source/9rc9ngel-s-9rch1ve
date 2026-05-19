@@ -5,86 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>9rc9ngels 9rchive</title>
     <style>
-        @import url('home.css');
+        @import url('blog.css');
     </style>
 </head>
 <body>
-    <div class="crt">
-    <h1>9RC9NGELS 9RCH1VE</h1>
-
-        <div id="container">
-            <div id="headerArea">
-                <div id="header"></div>
-                <nav id="navbar">
-                    <ul>
-                        <li><a href="home.html">home</a></li>
-                        <li><a href="brain.html">brain</a></li>
-                        <li><a href="galleria.html">galleria</a></li>
-                    
-                    </ul>
-                </nav>
-            </div>
-
-            <div id="flex">
-                <aside id="leftSidebar">
-                    <h2>Updates</h2>
-                    <div class="box">
-                        <p>I have recently updated this tool as of August 2022!</p>
-                        <ul style="padding-left:10px;">
-                            <li>Rewrote the JS to generate cleaner code</li>
-                            <li>Rewrote the CSS in a way that hopefully makes much more sense to edit</li>
-                            <li>Added a couple of new features!</li>
-                            <li>Old version is still available <a href="old.html" target="_blank">here</a></li>
-                        </ul>
-                    </div>
-                    <h2>Hi there!</h2>
-                    <h3>Other Tools</h3>
-                    <ul>
-                        <li><a href="https://sadgrlonline.github.io/html-cheatsheet/" target="_blank">HTML Cheatsheet</a>
-                        </li><li><a href="webmastery/webmaster-links.html" target="_blank">Webmaster Links</a></li>
-                        <li><a href="webmastery/downloads/tiledbgs.html" target="_blank">Tiled BGs</a></li>
-                        <li><a href="webmastery/downloads/fonts.html" target="_blank">Fonts</a></li>
-                        <li><a href="projects/ideas/" target="_blank">Site Ideas</a></li>
-                    </ul>
-                </aside>
-                <main>
-                    -Welcome to my archive. My name is Hayat and I'm currently building this website. I finally found the missing peace to truly illustrate my creativity. Though I've been coding for four years at my high school, I never knew there was a way to transfer my thoughts into websites. I'm inspired by several other websites on neocities and I hope this website is a positive thing for me and you .-.
-
--Look around and explore and you'll find several pages. To my right is the navigation, and to my left is my general profile.
-<div id="updates-home"><h2>What's New?</h2> </div>
-                  
-                </main>
-                <aside id="rightSidebar">
-                    
-                    <div class="box">
-                        <h2>profile</h2>
-                        
-                        <img src="imgs/ayas-pfp.jpg" width="100%" height="100" alt="aya's Image">
-                      <a href="https://www.imood.com/users/9rc9ngel"><img src="https://moods.imood.com/display/uname-9rc9ngel/fg- FFFFF/trans-1/imood.gif" alt="The current mood of 9rc9ngel at www.imood.com" border="0"></a>
-                       <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=9rc9ngel" defer></script>
-
-<hr />
-                        <ul style="padding-left:10px;">
-                          <div class="mood-home"> mood: chill (insert gif)</div>
-                            <li>Old version is still available <a href="old.html" target="_blank">here</a></li>
-                        </ul>
-                    </div>
-                    <h2>Hi there!</h2>
-                    <h3>Other Tools</h3>
-                    <ul>
-                        <li><a href="https://sadgrlonline.github.io/html-cheatsheet/" target="_blank">HTML Cheatsheet</a>
-                        </li><li><a href="webmastery/webmaster-links.html" target="_blank">Webmaster Links</a></li>
-                        <li><a href="webmastery/downloads/tiledbgs.html" target="_blank">Tiled BGs</a></li>
-                        <li><a href="webmastery/downloads/fonts.html" target="_blank">Fonts</a></li>
-                        <li><a href="projects/ideas/" target="_blank">Site Ideas</a></li>
-
-                    </ul>
-                </aside>
-            </div>
-            <footer id="footer">CC0 Public Domain, 2022</footer>
+     <div class="logo" style="position: relative;  ">
+            <img src="imgs/9rc9ngel 1.svg" width="100%" height="auto" style="position: relative; left: -10%; " alt="Logo">
+            
         </div>
-    
-    </div>
-</body>
+    <div class="Container">
+       
+        <div class="left-sidebar">
+            <ul>
+                <li><a href="figma.html">home</a></li>
+                <li><a href="about.html">about me</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="plans.html">profile</a></li>
+                <li><a href="random.html">random</a></li>
+            </ul>
+        </div>
+        
+        <div class="right-sidebar">
+           <div class="journal">
+                <h1>Blog</h1>
+                <form id="journalForm">
+                    <select id="entryType" required>
+        
+                        <option value="general">General</option>
+                        <option value="poem">Poem</option>
+                    </select>
 
+                    <input type="text" id="entryTitle" placeholder="Title" required>
+                    <textarea id="entryContent" placeholder="Write your entry here..." required></textarea>
+                    <button type="submit">Add Entry</button>
+                </form>
+
+                    <div id=results>
+<div class="section-column">
+    <h2>General Entries</h2>
+    <div id="generalContainer">
+    </div>
+</div>
+
+<div class="section-column">
+    <h2>Poems</h2>  
+    <div id="poemContainer">
+    </div>    
+    </div>
+
+
+
+                    </div>
+           </div>
+    </div>
+
+    <script src="blog.js"></script>
+</body>
 </html>
